@@ -1,0 +1,45 @@
+body{
+  background-image: url("img/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  bottom: 0;
+  color: black;
+  left: 0;
+  overflow: auto;
+  padding: 3em;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  background-size: cover;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin: 8px;
+    border-radius: 10px;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 0px;
+    background-color: white
+}
+h4{
+  font-size: 0,8em;
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content:flex-start;
+}
