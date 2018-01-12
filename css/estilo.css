@@ -90,7 +90,6 @@ ul.topnav li {
 /*remove a mudança de cor ao passar o mouse por cima*/
 #logo-do-site:hover{
     background-color: inherit;
-    width: 140px;
     height: 30px;
 }
 
