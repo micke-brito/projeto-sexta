@@ -6,11 +6,11 @@ body {
   color: black;
   left: 0;
   overflow: auto;
-  padding: 3em;
-  position: absolute;
+  padding: 0;
+  position: right;
   right: 0;
+  top: 0;
   text-align: center;
-  top: 40px;
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .card  {
     /* sombras e bordas para criar o efeito do cartao */
-    margin: 80px;
+    margin: 90px;
     width: 150px;
     height: 150px;
     padding: 5px;
