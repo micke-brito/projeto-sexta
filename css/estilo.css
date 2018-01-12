@@ -107,6 +107,7 @@ ul.topnav li {
 
 .topnav{
   position:fixed;
+  width:98%;
 }
 /*botao dos itens da lista*/
 ul.topnav li a {
@@ -136,5 +137,10 @@ ul.topnav li.right {
     ul.topnav li.right,
     ul.topnav li {
         float: none;
+
+    }
+    .topnav{
+      position:static;
+      
     }
 }
