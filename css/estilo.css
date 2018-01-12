@@ -105,6 +105,9 @@ ul.topnav li {
     margin-top: -5px;
 }
 
+.topnav{
+  position:fixed;
+}
 /*botao dos itens da lista*/
 ul.topnav li a {
     display: block;
